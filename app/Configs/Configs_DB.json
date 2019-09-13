@@ -1,0 +1,15 @@
+{
+    "__COMMENT__": "holds all params need to connect with database",
+    "db_test": {
+        "dbHost": "127.0.0.1",
+        "dbUser": "root",
+        "dbPass": "Iman001@",
+        "dbName": "aplatun"
+    },
+    "db_live": {
+        "dbHost": "127.0.0.1",
+        "dbUser": "root",
+        "dbPass": "Iman001@",
+        "dbName": "aplatun"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "__COMMENT__": "to comment any item prefix that key with ;;",
+    "adminTopMenu": {
+        "Super admin": {
+            "Administrator": {
+                "Add admin": "/Admin_AK/administrator/add",
+                "Manage admin": "/Admin_AK/administrator/view",
+                "Change password": "/Admin_AK/administrator/change-password"
+            },
+            "Settings": {
+                "Add lookup": "settings/lookup/add",
+                "Manage lookup": "settings/lookup/view"
+            },
+            "Organize home page": {
+                "Manage links": "home-page/manage-links",
+                "Manage featured products": "home-page/manage-featured-products",
+                "Manage special offers": "home-page/manage-special-offers"
+            }
+        },
+        "Product": {
+            "Product category": {
+                "Add category": "product/category/add",
+                "Manage category": "product/category/view"
+            },
+            "Product sub-category": {
+                "Add sub-category": "product/sub-category/add",
+                "Manage sub-category": "product/sub-category/view"
+            },
+            "Product sub-sub-category" : {
+                "Add sub-sub-category": "product/sub-sub-category/add",
+                "Manage sub-sub-category": "product/sub-sub-category/view"
+            },
+            "Products": {
+                "Add product": "product/add",
+                "Manage product": "product/view"
+            },
+            "Search product": "product/search"
+        },
+        "Coupon & offer": {
+            "Coupon": {
+                "Add coupon": "coupon/add",
+                "Manage coupon": "coupon/view"
+            },
+            "Offer": {
+                "Add offer": "offer/add",
+                "Manage offer": "offer/view"
+            }
+        },
+        "Member": {
+            "Add member": "member/add",
+            "Manage member": "member/add",
+            "Search member": "member/search"
+        },
+        "Order manager": {
+            "Unpaid orders": "order/unpaid",
+            "Waiting for approval": "order/waiting-approval",
+            "Open orders": "order/open",
+            "Closed orders": "order/closed"
+        },
+        "Report": {
+            "Product": {
+                "Offers": "report/products/offers",
+                "Best selling": "report/products/best-selling",
+                "Inactive": "report/products/inactive",
+                "Sold out": "report/products/sold-out"
+            },
+            "Sales": {
+                "Unified sales report": "report/products/unified-sales-report"
+            },
+            "Member": {
+                "Top buyer": "report/member/top-buyer",
+                "Absent members": "report/member/absent"
+            }
+        },
+        "Log Out": "log-out"
+    }
+}

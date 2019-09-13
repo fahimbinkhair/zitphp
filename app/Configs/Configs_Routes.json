@@ -1,0 +1,34 @@
+{
+    "__COMMENT__": "holds all routing information",
+    "routes": {
+        "__COMMENT__": [
+            "1st index: name of the controller",
+            "2nd index: name of the action",
+            "note: keys should follow the rules of regular expression"
+        ],
+        "\/": {
+            "controller": "Controllers_Index",
+            "action": "action_index"
+        },
+        "Admin_AK": {
+            "controller": "Controllers_Index",
+            "action": "action_adminLogin"
+        },
+        "Admin_AK/home": {
+            "controller": "Controllers_AdminDashBoard",
+            "action": "action_index"
+        },
+        "Admin_AK/administrator/add": {
+            "controller": "Controllers_Administrator",
+            "action": "action_addAdministrator"
+        },
+        "Admin_AK/administrator/view": {
+            "controller": "Controllers_Administrator",
+            "action": "action_viewAdministrator"
+        },
+        "Admin_AK/administrator/change-password": {
+            "controller": "Controllers_Administrator",
+            "action": "action_changeAdminPassword"
+        }
+    }
+}

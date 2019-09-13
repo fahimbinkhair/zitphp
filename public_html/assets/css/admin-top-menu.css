@@ -1,0 +1,40 @@
+
+/** CSS Tweaks **/
+
+#topMenu {background:#ffffff;}
+.dropdown {list-style:none;   font-size: 12px; padding-left:21;margin:0;font-weight:normal; min-height:35px;line-height:35px;}
+.dropdown li {padding:0;margin:0;list-style:none;position:relative; min-width:110px; background:#ffffff; text-align:center;display:block;cursor:pointer;}
+.dropdown li a {display:block;cursor:pointer; padding:0 5px;text-decoration:none;}
+
+.dropdown > li {padding:0;margin:0; float:left;display:block;cursor:pointer;min-width:110px;border-right:1px solid #dddddd;}
+
+.dropdown > li:last-child{
+        border-right:0px;
+}
+.dropdown > li > a {padding:0;margin:0;float:left;background-color: transparent; color:#000000; display:block;cursor:pointer; min-width:110px;}
+.dropdown > li > a:hover,.dropdown > li:hover > a {background:#dddddd;display:block;cursor:pointer; min-width:110px;}
+
+.dropdown > li ul {padding:0;margin:0;display:none;}
+
+.dropdown > li:hover > ul {padding:0;margin:0;display:block; min-width:170px;position:absolute;left:0px;top:30px; border: 1px outset #dddddd;}
+.dropdown > li > ul > li {padding:0;margin:0; border-bottom:1px solid #dddddd; text-indent:5px;text-align:left;}
+.dropdown > li > ul > li:last-child{
+        border-bottom:0px;
+}
+
+.dropdown > li > ul > li > a {display:block;background:#ffffff;color:#000000;}
+.dropdown > li > ul > li > a:hover,.dropdown > li ul > li:hover > a {background:#dddddd;color:#000000;}
+
+.dropdown > li ul > li:hover > ul {padding:0;margin:0;display:block; min-width:170px;position:absolute;left:167px;top:0px;border: 1px outset #dddddd;}
+.dropdown > li > ul > li > ul > li {padding:0;margin:0; border-bottom:1px solid #ccc; text-indent:5px; text-align:left;}
+.dropdown > li > ul > li > ul > li:last-child{
+        border-bottom:0px;
+}
+
+.dropdown > li > ul > li > ul > li a {display:block;background:#ffffff;color:#000000;}
+.dropdown > li > ul > li > ul > li a:hover {background:#dddddd;color:#000000;}
+.dropdown > li > ul > li > ul > li > ul > li {padding:0;margin:0; border-bottom:1px solid #ccc; text-indent:5px; text-align:left;}
+.dropdown > li > ul > li > ul > li > ul > li:last-child {
+    border-bottom: 0px;
+}
+

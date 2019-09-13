@@ -1,0 +1,14 @@
+/*alternative row color*/
+.row-alt-color:nth-of-type(odd){
+    background-color: #efefef;
+}
+.row-alt-color:nth-of-type(even){
+    background-color: #ffffff;
+}
+label {
+    font-weight: normal !important;
+}
+.errorMsg {
+    text-align: left;
+    color: #fe0101;
+}
