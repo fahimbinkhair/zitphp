@@ -1,15 +1,16 @@
 {
-    "__COMMENT__": "holds all params need to connect with database",
+    "__COMMENT__": "holds all params need to connect with database.",
     "db_test": {
         "dbHost": "127.0.0.1",
         "dbUser": "root",
-        "dbPass": "Iman001@",
+        "dbPass": "123654789",
         "dbName": "aplatun"
     },
     "db_live": {
+        "__COMMENT__": "In production DB credentials should not be stored in code base",
         "dbHost": "127.0.0.1",
         "dbUser": "root",
-        "dbPass": "Iman001@",
+        "dbPass": "asdfghjkl",
         "dbName": "aplatun"
     }
 }
